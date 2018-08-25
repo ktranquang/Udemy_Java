@@ -1,7 +1,7 @@
 /**
  * Created by Khoi on 2018-08-21.
  */
-public class MegaBytesConverter {
+public class CodingExercises {
     public static void main(String[] args) {
         printMegaBytesAndKiloBytes(2050);
         System.out.println(bark(true,1));
@@ -23,7 +23,7 @@ public class MegaBytesConverter {
         if(barking && (hourOfDay < 9 || hourOfDay > 22 )) {
             return true;
         }
-        else if(hourOfDay < 0 || hourOfDay > 23) {
+        else if(barking && (hourOfDay < 0 || hourOfDay > 23)) {
             return false;
         }
         else{
