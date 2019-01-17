@@ -6,6 +6,9 @@ package com.khoi;
 public class Main {
     public static void main(String[] args) {
         printDayOfTheWeek(-1);
+        printDayOfTheWeek(1);
+        printDayOfTheWeek(6);
+        printDayOfTheWeek(7);
         DayOfTheWeekChallenge.printDayOfTheWeek(-1);
 
     }
@@ -32,6 +35,7 @@ public class Main {
             case 6:
                 System.out.println("Saturday");
                 break;
+
             default:
                 System.out.println("Invalid day");
                 break;
