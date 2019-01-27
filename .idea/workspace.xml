@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a3254c7-89e6-43bd-92ad-07789ace3135" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/SumOdd/SumOdd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SumOdd/src/com/khoi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SumOdd/src/com/khoi/SumOddRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/While/While.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/While/src/com/khoi/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -38,15 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Switch/src/com/khoi/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PrintDayOfTheWeek/src/com/khoi/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,13 +90,22 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SumOdd/src/com/khoi/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SumOddRange.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/While/src/com/khoi/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumOddRange.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SumOdd/src/com/khoi/SumOddRange.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -157,8 +156,9 @@
         <option value="$PROJECT_DIR$/NumberInWord/src/com/khoi/Main.java" />
         <option value="$PROJECT_DIR$/NumberOfDaysInMonths/src/com/khoi/Main.java" />
         <option value="$PROJECT_DIR$/ForLoop/src/com/khoi/Main.java" />
-        <option value="$PROJECT_DIR$/SumOdd/src/com/khoi/Main.java" />
         <option value="$PROJECT_DIR$/SumOdd/src/com/khoi/SumOddRange.java" />
+        <option value="$PROJECT_DIR$/SumOdd/src/com/khoi/Main.java" />
+        <option value="$PROJECT_DIR$/While/src/com/khoi/Main.java" />
       </list>
     </option>
   </component>
@@ -171,9 +171,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="41" />
+    <option name="y" value="100" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -181,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -398,12 +401,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="khoi" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaPrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="While" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="While" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="While" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="khoi" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -412,7 +429,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534878410591" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -429,7 +446,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.khoi.Main" />
       <module name="NumberInWord" />
@@ -470,9 +487,9 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.khoi.Main" />
-      <module name="DayOfTheWeekChallenge" />
+      <module name="While" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.khoi.*" />
@@ -481,19 +498,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -521,7 +538,9 @@
       <workItem from="1547486099520" duration="1139000" />
       <workItem from="1547612063559" duration="921000" />
       <workItem from="1547687366974" duration="1035000" />
-      <workItem from="1548438907639" duration="1883000" />
+      <workItem from="1548438907639" duration="2404000" />
+      <workItem from="1548556346477" duration="445000" />
+      <workItem from="1548627836633" duration="1177000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Update (9%)&quot;">
       <created>1547312135700</created>
@@ -544,14 +563,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547688202224</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Update (10%)&quot;">
+      <created>1548442219534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548442219536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21393000" />
+    <option name="totallyTimeSpent" value="23536000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="41" y="100" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
@@ -563,12 +589,12 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.307783" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.34744707" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3075965" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.42777777" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.42777777" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -592,7 +618,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Update (9%)&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Update (9%)&quot;" />
+    <MESSAGE value="&quot;Update (10%)&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Update (10%)&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -604,13 +631,10 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ByteShortInt/ByteShortInt.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ByteShortInt/src/com/khoi/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -924,17 +948,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SumOdd/src/com/khoi/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SumOdd/src/com/khoi/SumOddRange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SumOdd/src/com/khoi/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/While/src/com/khoi/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -990,7 +1021,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>IntEqualityPrinter</last-edited>
+          <last-edited>While</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
